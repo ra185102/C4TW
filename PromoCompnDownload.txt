@@ -1,0 +1,5 @@
+The PromotionCompress_ToLinux.bat and DownloadPromotions.bat are the 2 batch files in which PromotionCompress_ToLinux.bat will download the promotions and the zip them and upload to a Remote server
+
+Downloadpromotions. bat will copy them from the remote server and then push the .7z files to Download folder and then Backup folder and split the zipped files and copy them to D:\NCR\LPE\RetalixLPEScheduler folder
+
+We have the .ini files  (Configuration_end.ini) in both folders where the Remote folder location is specified with an IP address
